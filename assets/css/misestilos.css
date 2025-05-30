@@ -1,0 +1,291 @@
+body{
+    font-family: sans-serif;
+    background-color: #f8f8f8;
+}
+
+/*----- Pagina Principal */
+
+/*Barra de navegacion*/
+.navbar, footer .row{
+    background-color: #ffb730;  
+}
+
+.navbar{
+    box-shadow: 1px 6px 8px 6px rgba(151, 149, 149, 0.20);
+}
+
+.logo{
+    color:#4a4a4a;
+}
+
+.activar:hover{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+
+
+.img-search{
+    height: 20px;
+}
+
+.input-search{
+    border-radius: 30px;height: 30px;
+}
+
+.cant-carrito{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width:1rem;
+    height: 1rem;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    left: 5px;
+    font-size: 10px;
+    margin-left: 9px;
+}
+
+.nav-carrito{
+    position: relative;
+}
+
+/*Categorias*/
+.img-categoria:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 4s;
+}
+
+.img-categoria{
+    height: 200px;
+    width: 260px;
+}
+
+/*Algunos productos*/
+.card-head{
+    height: 205px;
+}
+
+.img-targeta{
+    height: 100%;
+    width: 220px;
+}
+
+.sombra:hover{
+    box-shadow: 5px 5px 7px #b2b2b2;
+}
+
+
+
+/*-------CONTACTO*/
+.usuario-form{
+    box-shadow: 1px 6px 8px 6px rgba(151, 149, 149, 0.20);
+}
+
+.btn-usuario{
+    background-color: orangered;
+    border-radius:0%;
+    color:white;
+
+}
+
+.btn-usuario:hover{
+    background-color: orangered;
+    color:white;
+}
+
+.textarea-contacto{
+    height: 150px;
+}
+
+/*-------FOR;ULARIO DE REGISTRo*/
+.btn-usuario{
+    background-color: orangered;
+    border-radius:0%;
+    color:white;
+}
+
+.btn-usuario:hover{
+    background-color: orangered;
+    color:white;
+}
+
+/* -------QUIENES SOMOS */
+.img-integrante{
+    margin:0 auto; 
+    width:140px; 
+    height: 140px;
+    border-radius:50%;  
+}
+
+
+/*----CARRITo*/
+
+.trash-icon{
+width: 30px;
+height: 30px;
+}
+
+.table-cantidad{
+    width: 40px;
+    text-align: end;
+}
+
+.btn-carrito{
+    background-color: orangered;   
+   border-radius: 25px;
+}
+
+.btn-carrito:hover{
+    background-color: orangered;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Categorias*/
+.img-categoria:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 4s;
+}
+
+.img-categoria{
+    height: 200px;
+    width: 260px;
+}
+
+/*Algunos productos*/
+.card-head{
+    height: 205px;
+}
+
+.img-targeta{
+    height: 100%;
+    width: 220px;
+}
+
+.sombra:hover{
+    box-shadow: 5px 5px 7px #b2b2b2;
+}
+
+/*Nuevo producto*/
+.contenedor{
+    background-color: #d7d4da;
+    padding: 70px 90px;
+    /* padding: 75px 100px; */
+}
+
+.nuevo-producto{
+    width:100%;
+    height: 100%;
+    animation: float 4s linear infinite;
+}
+
+@keyframes float{
+    0%, 50%{
+      transform: translateY(0rem);
+    }
+
+    50%{
+        transform: translateY(-1.5rem);
+    }
+}
+
+
+
+@media(max-width: 992px){
+    .t2{
+        height:  170px;
+        width: 250px;  
+        margin-left: 30px;
+    }
+
+    .t5{
+        margin-left: 30px;
+    }
+}
+
+@media(max-width: 768px){
+    .t3{
+        height:  150px;
+        width: 210px;  
+    }
+}
+
+@media(max-width: 576px){
+    .t6{
+        height:  160px;
+        width: 200px; 
+        margin-left: 0;
+    }
+
+    .t{
+     height:  180px;
+     width: 200px; 
+     margin-left: 130px;
+    }
+
+    .t1{
+        height:  170px;
+        width: 220px; 
+        margin-left: 50px;
+    }
+    
+    .t4{
+        margin-left: 60px;
+    }
+     
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
