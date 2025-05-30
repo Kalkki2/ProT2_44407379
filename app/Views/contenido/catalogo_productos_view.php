@@ -13,7 +13,7 @@
                             <h4 class="card-subtitle my-2">$  349.999</h4> 
                             <div class="row mt-5">
                                 <div class="col-12  mb-2">
-                                   <a href="#"class="btn btn-outline-secondary text-dark w-50">Ver detalles</a>  
+                                   <a href="<?php echo base_url('producto_detallado')?>"class="btn btn-outline-secondary text-dark w-50">Ver detalles</a>  
                                 </div>
                                 <div class="col-12  mb-2">
                                     <a href="carrito" class=" btn btn-primary w-100">Agregar a Carrito</a>

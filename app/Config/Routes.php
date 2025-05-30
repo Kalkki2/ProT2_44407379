@@ -12,5 +12,5 @@ $routes->get('quienes_somos', 'Home::mostrarQuienesSomos');
 $routes->get('catalogo_producto', 'Home::mostrarCatalogo');
 $routes->get('carrito', 'Home::mostrarCarrito');
 $routes->get('terminosyUsos', 'Home::mostrarTerminosYUsos');
-
+$routes->get('producto_detallado', 'Home::mostrarDetallesProducto');
 $routes->get('login', 'Home::mostrarLogin');

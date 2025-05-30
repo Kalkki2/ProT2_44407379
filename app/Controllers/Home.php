@@ -52,5 +52,11 @@ class Home extends BaseController{
         $data['titulo']='Login';
 
         return view('plantillas/head', $data).view('plantillas/navbar').view('contenido/login_view').view('plantillas/footer');
-       }
+    }
+
+    public function mostrarDetallesProducto(){
+        $data['titulo']='Detalles';
+
+        return view('plantillas/head', $data).view('plantillas/navbar').view('contenido/producto_detallado_view').view('plantillas/footer');
+    }
 }
