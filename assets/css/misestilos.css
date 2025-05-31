@@ -261,6 +261,20 @@ height: 30px;
 
 
 
+/*---PAGO*/
+.mensaje-modal{
+    text-align: center;
+}
+
+.icono-confirmar{
+    width: 115px;
+    height: 115px;
+}
+
+.icono-confirmado{
+    width: 150px;
+    height: 150px;
+}
 
 
 

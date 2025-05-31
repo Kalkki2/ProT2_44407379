@@ -14,3 +14,4 @@ $routes->get('carrito', 'Home::mostrarCarrito');
 $routes->get('terminosyUsos', 'Home::mostrarTerminosYUsos');
 $routes->get('producto_detallado', 'Home::mostrarDetallesProducto');
 $routes->get('login', 'Home::mostrarLogin');
+$routes->get('opciones_pago', 'Home::mostrarOpcionesPago');

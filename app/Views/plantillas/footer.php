@@ -43,6 +43,11 @@
             <p>Copyright© 2025 Todos los derechos reservados</p>
         </div>
    </footer>
-   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="<?php echo base_url("assets/js/bootstrap.bundle.min.js")?>"></script>
+   <script src="<?php echo base_url("assets/js/miseventos.js")?>">
+   <script>
+   
+   </script>
+   
 </body>
 </html>

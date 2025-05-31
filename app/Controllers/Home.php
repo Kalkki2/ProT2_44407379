@@ -59,4 +59,11 @@ class Home extends BaseController{
 
         return view('plantillas/head', $data).view('plantillas/navbar').view('contenido/producto_detallado_view').view('plantillas/footer');
     }
+
+    
+    public function mostrarOpcionesPago(){
+        $data['titulo']='Pago';
+
+        return view('plantillas/head', $data).view('plantillas/navbar').view('contenido/pago_confirmacion_view').view('plantillas/footer');
+    }
 }
