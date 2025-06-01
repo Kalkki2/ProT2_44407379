@@ -66,4 +66,11 @@ class Home extends BaseController{
 
         return view('plantillas/head', $data).view('plantillas/navbar').view('contenido/pago_confirmacion_view').view('plantillas/footer');
     }
+
+        
+    public function mostrarComercializacion(){
+        $data['titulo']='Pago';
+
+        return view('plantillas/head', $data).view('plantillas/navbar').view('contenido/comercializacion_view').view('plantillas/footer');
+    }
 }

@@ -17,6 +17,9 @@
                     <li>
                         <a  href="<?php echo base_url('quienes_somos')?>">Quienes somos</a>
                     </li>
+                    <li>
+                        <a  href="<?php echo base_url('comercializacion')?>">Comercializacion</a>
+                    </li>
                 </ul>
                 <div class="my-4">
                     <a href="https://facebook.com" target="_blank">

@@ -1,4 +1,4 @@
-  <section class="container">
+  <section class="container my-3">
         <h3>¿Quienes somos?</h3>
         <hr class="mt-1">
         <div class="row mb-4">

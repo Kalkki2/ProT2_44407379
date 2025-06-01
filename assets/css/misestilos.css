@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    background-color: #f8f8f8;
+    background-color: #f3eeee;
 }
 
 /*----- Pagina Principal */
@@ -23,7 +23,6 @@ body{
     color: white;
     border-radius: 15px;
 }
-
 
 
 .img-search{
@@ -54,33 +53,38 @@ body{
     position: relative;
 }
 
-/*Categorias*/
-.img-categoria:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: 4s;
-}
+/*---------------------PRINCIPAL*/
 
+/*Categorias*/
 .img-categoria{
-    height: 200px;
-    width: 260px;
+    height: 150px;
+    width: 200px;
 }
 
 /*Algunos productos*/
-.card-head{
-    height: 205px;
-}
-
 .img-targeta{
-    height: 100%;
-    width: 220px;
+    height: 190px;
+    width: 190px;
+    object-fit: contain;
 }
 
 .sombra:hover{
     box-shadow: 5px 5px 7px #b2b2b2;
 }
 
+.sombra{
+    height: 100%;
+}
 
+.img-novedades{
+  object-fit: contain;
+  height:200px;
+   width:200px;
+}
+
+.novedades-card{
+    border:3px solid #89d8fc;
+}
 
 /*-------CONTACTO*/
 .usuario-form{
@@ -103,7 +107,7 @@ body{
     height: 150px;
 }
 
-/*-------FOR;ULARIO DE REGISTRo*/
+/*-------------------FOR;ULARIO DE REGISTRo*/
 .btn-usuario{
     background-color: orangered;
     border-radius:0%;
@@ -115,7 +119,7 @@ body{
     color:white;
 }
 
-/* -------QUIENES SOMOS */
+/* ------------------QUIENES SOMOS */
 .img-integrante{
     margin:0 auto; 
     width:140px; 
@@ -124,8 +128,7 @@ body{
 }
 
 
-/*----CARRITo*/
-
+/*------------------CARRITo*/
 .trash-icon{
 width: 30px;
 height: 30px;
@@ -139,6 +142,7 @@ height: 30px;
 .btn-carrito{
     background-color: orangered;   
    border-radius: 25px;
+   color: white;
 }
 
 .btn-carrito:hover{
@@ -147,121 +151,7 @@ height: 30px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Categorias*/
-.img-categoria:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: 4s;
-}
-
-.img-categoria{
-    height: 200px;
-    width: 260px;
-}
-
-/*Algunos productos*/
-.card-head{
-    height: 205px;
-}
-
-.img-targeta{
-    height: 100%;
-    width: 220px;
-}
-
-.sombra:hover{
-    box-shadow: 5px 5px 7px #b2b2b2;
-}
-
-/*Nuevo producto*/
-.contenedor{
-    background-color: #d7d4da;
-    padding: 70px 90px;
-    /* padding: 75px 100px; */
-}
-
-.nuevo-producto{
-    width:100%;
-    height: 100%;
-    animation: float 4s linear infinite;
-}
-
-@keyframes float{
-    0%, 50%{
-      transform: translateY(0rem);
-    }
-
-    50%{
-        transform: translateY(-1.5rem);
-    }
-}
-
-
-
-@media(max-width: 992px){
-    .t2{
-        height:  170px;
-        width: 250px;  
-        margin-left: 30px;
-    }
-
-    .t5{
-        margin-left: 30px;
-    }
-}
-
-@media(max-width: 768px){
-    .t3{
-        height:  150px;
-        width: 210px;  
-    }
-}
-
-@media(max-width: 576px){
-    .t6{
-        height:  160px;
-        width: 200px; 
-        margin-left: 0;
-    }
-
-    .t{
-     height:  180px;
-     width: 200px; 
-     margin-left: 130px;
-    }
-
-    .t1{
-        height:  170px;
-        width: 220px; 
-        margin-left: 50px;
-    }
-    
-    .t4{
-        margin-left: 60px;
-    }
-     
-
-}
-
-
-
-
-
-
-/*---PAGO*/
+/*---------------------PAGO*/
 .mensaje-modal{
     text-align: center;
 }
@@ -277,9 +167,37 @@ height: 30px;
 }
 
 
+/*---------------COMERCIALIZACIO*/
+.img-paqueteria{
+    width: 130px; 
+    height: 60px; 
+    object-fit: contain;
+}
+
+.logo-pago{
+    width: 150px;
+    height: 70px;
+    object-fit: contain;
+}
 
 
-
+.redes-icon{
+    width: 25px;
+    height: 25px;
+}
+footer a, .nav-carrito a{
+   text-decoration: none;
+   color: black;
+}
+footer li{
+   list-style: none;
+}
+ 
+.image-detalle{
+    height: 350px;
+    width: 100%;
+    object-fit: contain;
+}
 
 
 

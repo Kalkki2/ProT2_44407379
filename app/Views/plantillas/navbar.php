@@ -16,19 +16,20 @@
                     <li class="nav-item">
                         <a  class="nav-link py-1 mt-1 activar" href="<?php echo base_url('contacto')?>">Contacto</a>
                     </li>
+                    <li class="nav-item">
+                        <a  class="nav-link py-1 mt-1 activar" href="<?php echo base_url('login')?>">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link py-1 mt-1 activar" href="<?php echo base_url('registrarse')?>"><img src="assets/img/icons/person-circle.svg" alt="">Registrarse</a>
+                    </li>
                     <li class="nav-carrito">
                         <p class="cant-carrito">2</p>     
                         <div >
                             <a  class="nav-link py-1 mt-1 " href="<?php echo base_url('carrito')?>"><img src="assets/img/icons/cart2.svg" alt=""></a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a  class="nav-link py-1 mt-1 activar" href="<?php echo base_url('login')?>">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class=" nav-link py-1 mt-1" href="<?php echo base_url('registrarse')?>"><img src="assets/img/icons/person-circle.svg" alt="">Registrarse</a>
-                    </li>
-                </ul>  
+                </ul> 
+
                 <form class="d-flex" role="search">
                     <input  class="form-control me-2 input-search" type="search" placeholder="Buscar" aria-label="Search"/>
                     <button class="btn p-0" type="submit"><img class=" img-search" src="assets/img/icons/search.svg" alt=""></button>

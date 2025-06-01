@@ -1,7 +1,7 @@
-<section class="container">
+<section class="container my-3">
         <h3>Tu Carrito</h3>
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 table-responsive">
                 <table class="table">
                     <thead class="table-head">
                       <tr>
@@ -73,12 +73,12 @@
                 </div>
                 <div class="row justify-content-between">
                     <div class="col-6 col-md-4 col-lg-3">
-                        <a  class="btn btn-carrito w-100 text-light" href="<?php echo base_url('catalogo_producto');?>">
+                        <a  class="btn btn-carrito w-100 " href="<?php echo base_url('catalogo_producto');?>">
                             <img class="me-2 pb-1" src="assets/img/icons/box-arrow-left.svg" alt="">Seguir comprando
                         </a>
                     </div>
                     <div class="col-6 col-md-4 text-end">
-                        <a  class="btn btn-carrito text-light" href="<?php echo base_url('opciones_pago');?>">Ordenar compra</a>
+                        <a  class="btn btn-carrito " href="<?php echo base_url('opciones_pago');?>">Ordenar compra</a>
                     </div>
                 </div>
             </div>

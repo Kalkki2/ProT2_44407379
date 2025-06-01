@@ -1,6 +1,5 @@
-<section class="container ">
+<section class="container my-3">
         <h3 class="d-inline">Contactanos</h3>
-        <img src="assets/img/icons/chat-left-text.svg" class="ms-1 pb-3"  alt="">
         <p>Si tienes alguna duda, comentario o sugerencia, puedes contactarnos a traves del formulario, redes sociales o llamandonos, y nuestro equipo se comunicara contigo.</p>
         <div class="row justify-content-center">
             <div class="col-11 col-md-8 col-lg-4 mb-3 p-3 usuario-form">
